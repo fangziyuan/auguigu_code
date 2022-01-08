@@ -29,23 +29,97 @@ public class SingleLinkedListDemo {
         singleLinkedList.addByOrder(hero2);
         System.out.println("修改前的信息~");
         singleLinkedList.list();
-        System.out.println("修改后的信息~");
-        HeroNode newHeroNode = new HeroNode(2,"小卢", "玉麒麟~~");
-        singleLinkedList.update(newHeroNode);
-        singleLinkedList.list();
+//        System.out.println("修改后的信息~");
+//        HeroNode newHeroNode = new HeroNode(2,"小卢", "玉麒麟~~");
+//        singleLinkedList.update(newHeroNode);
+//        singleLinkedList.list();
+//
+//        singleLinkedList.del(1);
+//        System.out.println("删除后的信息");
+//        singleLinkedList.list();
+//        singleLinkedList.del(4);
+//
+//        System.out.println("删除后的信息");
+//        singleLinkedList.list();
+//        System.out.printf("有效的节点个数%d", getLength(singleLinkedList.getHead()));
+//
+//        HeroNode lastNode = findLastNode(singleLinkedList.getHead(), 1);
+//        System.out.println(lastNode);
 
-        singleLinkedList.del(1);
-        System.out.println("删除后的信息");
-        singleLinkedList.list();
-        singleLinkedList.del(5);
-        singleLinkedList.del(2);
-        singleLinkedList.del(3);
-        singleLinkedList.del(4);
-
-        System.out.println("删除后的信息");
+        reverseShow(singleLinkedList.getHead());
+        System.out.println("反转后的列表");
         singleLinkedList.list();
     }
 
+    // 方法：获取到单链表的节点的个数（如果是带头节点的链表，需要不统计头节点）
+    /**
+     * 返回单链表的有效节点个数 -- 新浪的面试题
+     * @param head 链表的头节点
+     * @return 返回的是有效节点的个数
+     */
+    public static int getLength(HeroNode head) {
+        if (head.next == null) {
+            return 0;
+        }
+        int length = 0;
+        HeroNode cur = head.next;
+        while (cur != null) {
+            length++;
+            cur = cur.next;
+        }
+        return length;
+    }
+
+    // 查找单链表中的倒数第K个节点【新浪面试题】
+    // 思路
+    // 1. 编写一个方法，接收head节点，同时接收一个index
+    // 2. index 表示是倒数第index 个节点
+    // 3. 先把链表从头到尾遍历，得到链表的总的长度 getLength
+    // 4. 得到size后，我们从链表的第一个开始遍历（size-index）个，就可以得到
+    public static HeroNode findLastNode(HeroNode heroNode, int index) {
+        // 判断如果链表为空，返回null
+        if (heroNode.next == null) {
+            return null;
+        }
+        int size = getLength(heroNode);
+        if (index <= 0 || index > size) {
+            return null;
+        }
+        HeroNode cur = heroNode.next;
+        for (int i = 0; i < size - index; i++) {
+            cur = cur.next;
+        }
+        return cur;
+
+    }
+
+    public static void reverseShow(HeroNode head) {
+        if (head.next == null || head.next.next == null) {
+            return;
+        }
+        /**
+         * 思路
+         * 1. 先定义一个节点 reverseHead = new HeroNode();
+         * 2. 从头到尾遍历原来的链表，每遍历一个节点，就将其取出，并放在新的链表reverseHead 的最前端
+         * 3. 原来的链表的head.next = reverseHead.next
+         */
+        // 定义个辅助的指针（变量），帮助我们遍历原来的链表
+        HeroNode cur = head.next;
+        HeroNode next = null;
+        HeroNode reverseHead = new HeroNode(0,"", "");
+        while (cur != null) {
+            // 先暂时保存当前节点的下一个节点，因为后面需要使用
+            next = cur.next;
+            // 将cur 的下一个节点指向新的链表的最前端
+            cur.next = reverseHead.next;
+            // 将cur 连接到新的链表上
+            reverseHead.next = cur;
+            // 让cur 后移
+            cur = next;
+        }
+        // 将head的next 指向reverseHead.next,实现单链表的反转
+        head.next = reverseHead.next;
+    }
 
 }
 
@@ -53,6 +127,9 @@ public class SingleLinkedListDemo {
 class SingleLinkedList {
     private HeroNode head = new HeroNode(0, "", "");
 
+    public HeroNode getHead() {
+        return head;
+    }
     public void add(HeroNode heroNode) {
         HeroNode temp = head;
         while (true) {
