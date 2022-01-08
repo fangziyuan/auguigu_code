@@ -1,0 +1,20 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û‹üÿÿÿÿÿ
+U
+java:S1854"?Remove this useless assignment to local variable "allocation4".(ŒÁ©Û
+Z
+java:S1854"?Remove this useless assignment to local variable "allocation3".(ş…áúÿÿÿÿ
+Z
+java:S1854"?Remove this useless assignment to local variable "allocation2".(Û—¯¶üÿÿÿÿ
+U
+java:S1854"?Remove this useless assignment to local variable "allocation1".(ŒÉ±Â
+c
+java:S1659"HDeclare "allocation2" and all following declarations on a separate line.(Ø¾¤½üÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation1" local variable.(Ø¾¤½üÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation2" local variable.(Ø¾¤½üÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation3" local variable.(Ø¾¤½üÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation4" local variable.(Ø¾¤½üÿÿÿÿ

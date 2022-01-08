@@ -1,0 +1,14 @@
+
+T
+java:S1854"9Remove this useless assignment to local variable "birth".(ãåç”øÿÿÿÿ
+T
+java:S1854"9Remove this useless assignment to local variable "birth".(íß‘šûÿÿÿÿ
+V
+java:S1854";Remove this useless assignment to local variable "numList".(çßßïüÿÿÿÿ
+E
+java:S1481"*Remove this unused "birth" local variable.(ãåç”øÿÿÿÿ
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(­ë¿Ş
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞĞ­ãúÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ğì¶øÿÿÿÿ

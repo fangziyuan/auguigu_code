@@ -1,0 +1,38 @@
+
+O
+java:S1854	"9Remove this useless assignment to local variable "bytes".(˜ã¨
+@
+java:S1481	"*Remove this unused "bytes" local variable.(˜ã¨
+j
+java:S1215
+"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+T
+java:S1854"9Remove this useless assignment to local variable "bytes".(Ãã³˜ùÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "bytes".(˜ã¨
+@
+java:S1481"*Remove this unused "bytes" local variable.(˜ã¨
+j
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+O
+java:S1854"9Remove this useless assignment to local variable "bytes".(˜ã¨
+@
+java:S1481"*Remove this unused "bytes" local variable.(˜ã¨
+j
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+T
+java:S1854"9Remove this useless assignment to local variable "value".(ïÕÇúÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "bytes".(˜ã¨
+@
+java:S1481"*Remove this unused "bytes" local variable.(˜ã¨
+E
+java:S1481"*Remove this unused "value" local variable.(ïÕÇúÿÿÿÿ
+j
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+j
+java:S1215$"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ

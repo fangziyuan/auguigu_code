@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/aiguigu_code.iml" filepath="$PROJECT_DIR$/.idea/aiguigu_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datastructures/datastructures.iml" filepath="$PROJECT_DIR$/datastructures/datastructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvmtest/jvmtest.iml" filepath="$PROJECT_DIR$/jvmtest/jvmtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-annocation/spring-annocation.iml" filepath="$PROJECT_DIR$/spring-annocation/spring-annocation.iml" />
+    </modules>
+  </component>
+</project>
