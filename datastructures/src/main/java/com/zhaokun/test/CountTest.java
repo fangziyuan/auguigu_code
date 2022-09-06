@@ -1,8 +1,6 @@
 package com.zhaokun.test;
 
 
-import com.zhaokun.test.dto.PriceMagnificationDTO;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -87,7 +85,7 @@ public class CountTest {
             System.out.printf("%s\t\t,%s\t\t \n", s, value);
         }
     }
-    private static String getMagnificationValue(String magnificationPeek, String oper, int abs) {
+    public static String getMagnificationValue(String magnificationPeek, String oper, int abs) {
         String magnification = PriceUtil.getMagnification(abs);
         String res = "";
         BigDecimal bigDecimal1 = new BigDecimal(magnificationPeek);

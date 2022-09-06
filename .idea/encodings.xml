@@ -3,7 +3,9 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/datastructures/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datastructures/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hadooptest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jvmtest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-annocation/src/main/java/com/zhaokun/condition/WindowsCondition.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

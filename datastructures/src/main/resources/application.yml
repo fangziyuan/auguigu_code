@@ -1,0 +1,41 @@
+server:
+    port: 40010
+    servlet:
+      context-path: /pet
+    jackson:
+      time-zone: GMT+8
+      date-format: yyyy-MM-dd HH:mm:ss
+      joda-date-time-format: yyyy-MM-dd HH:mm:ss
+    jmx:
+      enabled: false
+      # \u6307\u5B9A\u6CE8\u518C\u5230eureka server\u4E0A\u7684\u670D\u52A1\u540D\u79F0\uFF0C\u5BF9\u4E8Eorder\u5FAE\u670D\u52A1\uFF0C\u672C\u7CFB\u5217\u5C06\u540D\u79F0\u8BBE\u4E3Aorder-client
+      application:
+        name: laso-pet
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:8080/laso_pet?characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+      username: root
+      password: root
+      type: com.alibaba.druid.pool.DruidDataSource
+      druid:
+        initial-size: 5
+        max-active: 100
+        min-idle: 5
+        max-wait: 60000
+        pool-prepared-statements: true
+        max-pool-prepared-statement-per-connection-size: 20
+        validation-query: SELECT 1 FROM DUAL
+        validation-query-timeout: 60000
+        test-on-borrow: false
+        test-on-return: false
+        test-while-idle: true
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 100000
+        filter:
+          stat:
+            slow-sql-millis: 100
+
+
+mybatis:
+  type-aliases-package: com.zhaokun.fresh.domain
+  mapper-locations: classpath*:mapper/*/*Mapper.xml,classpath*:mapper/*Mapper.xml

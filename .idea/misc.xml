@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/spring-annocation/pom.xml" />
         <option value="$PROJECT_DIR$/jvmtest/pom.xml" />
         <option value="$PROJECT_DIR$/datastructures/pom.xml" />
+        <option value="$PROJECT_DIR$/hadooptest/pom.xml" />
       </list>
     </option>
   </component>

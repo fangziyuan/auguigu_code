@@ -1,0 +1,18 @@
+
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(™ÇŽë
+e
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ý¦…J
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÛõºÒ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¸ø‰ø
+N	java:S106"9Replace this use of System.out or System.err by a logger.(·¥ì´
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ª²×úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(è¡¤Þøÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(Þ½Â‡þÿÿÿÿ
+M	java:S106>"9Replace this use of System.out or System.err by a logger.(†á…l
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(ˆÀ§Á
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(É©Ê¤
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(úãòœþÿÿÿÿ
+l
+java:S3457U"Q%n should be used in place of \n to produce the platform-specific line separator.(¸²ò”ûÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(¸²ò”ûÿÿÿÿ

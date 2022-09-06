@@ -1,0 +1,19 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "b".(™––üüÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "b".(Êİ€Œıÿÿÿÿ
+A
+java:S1481"&Remove this unused "b" local variable.(ÖÔŒßúÿÿÿÿ
+
+java:S2178"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(™––üüÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¶íâå
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'java.util.concurrent.ConcurrentHashMap'.(ÓŠÓøúÿÿÿÿ

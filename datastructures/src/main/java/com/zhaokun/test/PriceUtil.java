@@ -1,7 +1,15 @@
 package com.zhaokun.test;
 
+import cn.hutool.core.util.NumberUtil;
+import com.zhaokun.linkedlist.DoubleLinkedListDemo;
+
+import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+
+import static com.zhaokun.test.CountTest.getMagnificationValue;
 
 public class PriceUtil {
 

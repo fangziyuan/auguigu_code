@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.OrderGoodsMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.OrderGoods">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="goodsNo" column="goods_no" jdbcType="VARCHAR"/>
+            <result property="goodsName" column="goods_name" jdbcType="VARCHAR"/>
+            <result property="goodsPrice" column="goods_price" jdbcType="DECIMAL"/>
+            <result property="goodsNormalPriceQuantity" column="goods_normal_price_quantity" jdbcType="DECIMAL"/>
+            <result property="priceCoefficient" column="price_coefficient" jdbcType="FLOAT"/>
+            <result property="displayArea" column="display_area" jdbcType="INTEGER"/>
+            <result property="displayPosition" column="display_position" jdbcType="DOUBLE"/>
+            <result property="displayPositionRate" column="display_position_rate" jdbcType="DOUBLE"/>
+            <result property="turnoverOrderRate" column="turnover_order_rate" jdbcType="DOUBLE"/>
+            <result property="theoryAttritionRate" column="theory_attrition_rate" jdbcType="DOUBLE"/>
+            <result property="weekCustomerRate" column="week_customer_rate" jdbcType="FLOAT"/>
+            <result property="changePriceAverageSale" column="change_price_average_sale" jdbcType="FLOAT"/>
+            <result property="theoryEffectiveInventory" column="theory_effective_inventory" jdbcType="FLOAT"/>
+            <result property="estimatedSaleQuantity" column="estimated_sale_quantity" jdbcType="FLOAT"/>
+            <result property="smallGaugeBox" column="small_gauge_box" jdbcType="INTEGER"/>
+            <result property="smallGaugeOrderRate" column="small_gauge_order_rate" jdbcType="DOUBLE"/>
+            <result property="smallGaugeOrderAfterRate" column="small_gauge_order_after_rate" jdbcType="DOUBLE"/>
+            <result property="theoryRecommendOrderQuantity" column="theory_recommend_order_quantity" jdbcType="INTEGER"/>
+            <result property="orderQuantity" column="order_quantity" jdbcType="INTEGER"/>
+            <result property="orderAccuracyRate" column="order_accuracy_rate" jdbcType="INTEGER"/>
+            <result property="delayBeforeEqAverageSale" column="delay_before_eq_average_sale" jdbcType="FLOAT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,goods_no,goods_name,
+        goods_price,goods_normal_price_quantity,price_coefficient,
+        display_area,display_position,display_position_rate,
+        turnover_order_rate,theory_attrition_rate,week_customer_rate,
+        change_price_average_sale,theory_effective_inventory,estimated_sale_quantity,
+        small_gauge_box,small_gauge_order_rate,small_gauge_order_after_rate,
+        theory_recommend_order_quantity,order_quantity,order_accuracy_rate,
+        delay_before_eq_average_sale,create_time,update_time
+    </sql>
+</mapper>

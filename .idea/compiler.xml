@@ -3,24 +3,28 @@
   <component name="CompilerConfiguration">
     <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hadooptest" />
         <module name="spring-annocation" />
-        <module name="jvmtest" />
         <module name="datastructures" />
+        <module name="jvmtest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="datastructures" target="1.8" />
+      <module name="hadooptest" target="1.5" />
       <module name="jvmtest" target="1.8" />
-      <module name="spring-annocation" target="1.5" />
+      <module name="spring-annocation" target="6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="datastructures" options="-parameters" />
+      <module name="hadooptest" options="" />
       <module name="jvmtest" options="-parameters" />
     </option>
   </component>

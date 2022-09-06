@@ -1,0 +1,49 @@
+
+b
+java:S1854U"LRemove this useless assignment to local variable "theoryEffectiveInventory".( «¾È
+]
+java:S1854P"GRemove this useless assignment to local variable "displayPositionRate".(Õ™—œ
+X
+java:S1854K"CRemove this useless assignment to local variable "displayPosition".(Ûóð/
+U
+java:S1854F"?Remove this useless assignment to local variable "displayArea".(ŸÞè¬
+_
+java:S1854A"DRemove this useless assignment to local variable "priceCoefficient".(Ì¯ÔÅúÿÿÿÿ
+e
+java:S1854<"JRemove this useless assignment to local variable "changePriceAverageSale".(–„Š—øÿÿÿÿ
+Z
+java:S18547"DRemove this useless assignment to local variable "weekCustomerRate".(À•”
+b
+java:S18542"GRemove this useless assignment to local variable "theoryAttritionRate".(¬ðçâýÿÿÿÿ
+N
+java:S1854"9Remove this useless assignment to local variable "build".(ôÐ³ 
+?
+java:S1481"*Remove this unused "build" local variable.(ôÐ³ 
+H
+java:S1481"2Remove this unused "orderQuantity" local variable.(ª÷õò
+Q
+java:S1481#";Remove this unused "smallGaugeBoxOrderRate" local variable.(´ãà˜
+W
+java:S1481("ARemove this unused "theoryRecommendOrderQuantity" local variable.(Ý¶ø
+L
+java:S1481-"6Remove this unused "turnoverOrderRate" local variable.(ÈûñÚ
+S
+java:S14812"8Remove this unused "theoryAttritionRate" local variable.(¬ðçâýÿÿÿÿ
+K
+java:S14817"5Remove this unused "weekCustomerRate" local variable.(À•”
+V
+java:S1481<";Remove this unused "changePriceAverageSale" local variable.(–„Š—øÿÿÿÿ
+P
+java:S1481A"5Remove this unused "priceCoefficient" local variable.(Ì¯ÔÅúÿÿÿÿ
+F
+java:S1481F"0Remove this unused "displayArea" local variable.(ŸÞè¬
+I
+java:S1481K"4Remove this unused "displayPosition" local variable.(Ûóð/
+N
+java:S1481P"8Remove this unused "displayPositionRate" local variable.(Õ™—œ
+S
+java:S1481U"=Remove this unused "theoryEffectiveInventory" local variable.( «¾È
+S
+java:S1481a"8Remove this unused "smallGaugeOrderRate" local variable.(€­éùûÿÿÿÿ
+S
+java:S1481f"=Remove this unused "smallGaugeOrderAfterRate" local variable.(ô£Ìì
