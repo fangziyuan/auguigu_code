@@ -1,0 +1,31 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(çğÙˆüÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(‡—Èçûÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(ôÅõÌúÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(úö¦øÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(ì­øúÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(ÊÎå˜ûÿÿÿÿ
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(ÛÃ““ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(úö¦øÿÿÿÿ
+m
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(²¦é¨ıÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(²¦é¨ıÿÿÿÿ
+m
+java:S3457¨"Q%n should be used in place of \n to produce the platform-specific line separator.(À¬ÂŸøÿÿÿÿ
+T	java:S106¨"9Replace this use of System.out or System.err by a logger.(À¬ÂŸøÿÿÿÿ
+W	java:S125®"<This block of commented-out lines of code should be removed.(½»‹øÿÿÿÿÿ
+t	java:S135›"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+e
+java:S1104»"NMake no a static final constant or non-public and provide accessors if needed.(Ë¥ÏÄ
+g
+java:S1104¼"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+k
+java:S1104½"TMake nickName a static final constant or non-public and provide accessors if needed.(Åœ¦é
+k
+java:S1104¾"OMake pre a static final constant or non-public and provide accessors if needed.(ŒŸõûÿÿÿÿ
+f
+java:S1104¿"PMake next a static final constant or non-public and provide accessors if needed.(¯şèG
+_
+java:S2583Š"CChange this condition so that it does not always evaluate to "true"(ıü‡Ìûÿÿÿÿ
+^
+java:S2583l"CChange this condition so that it does not always evaluate to "true"(ıü‡Ìûÿÿÿÿ

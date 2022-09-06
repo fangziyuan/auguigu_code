@@ -1,0 +1,12 @@
+
+o	java:S116"NRename this field "SSN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®öüüÿÿÿÿÿ8Ôþ‰÷û/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ²½Ü8Øþ‰÷û/
+m
+java:S1104	"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾8Ùþ‰÷û/
+u
+java:S1104
+"SMake address a static final constant or non-public and provide accessors if needed.(€ªµúÿÿÿÿÿ8Ùþ‰÷û/
+q
+java:S1104"OMake SSN a static final constant or non-public and provide accessors if needed.(®öüüÿÿÿÿÿ8Úþ‰÷û/
+t
+java:S1104"RMake number a static final constant or non-public and provide accessors if needed.( ë¾©ùÿÿÿÿ8Úþ‰÷û/
